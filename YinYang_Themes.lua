@@ -54,7 +54,7 @@ return {
         "LightV1",
         "ErisV1",
         "ShylfieV1",
-        "SukunaV1",
+        "SukunaV1", "SukunaV2",
         "V1", "V2", "V3", "V4", "V5", "V6", "V9", "V10", "V11",
         "PibbleV1",
         "Orange",
@@ -457,6 +457,22 @@ return {
             },
             Sound      = DEFAULT_SOUND,
             Background = "rbxassetid://85949954769240",
+            Effect     = "SukunaRainbow",
+        },
+
+        SukunaV2 = {
+            Palette = {
+                Background = RGB(235, 232, 228),  -- Blanco roto (fondo del manga)
+                Secondary  = RGB(210, 205, 200),  -- Gris claro (paneles)
+                AccentOff  = RGB(170, 165, 160),  -- Gris medio
+                Text       = RGB(10,  10,  12),   -- Negro puro (trazos manga)
+                TextDim    = RGB(80,  75,  75),   -- Gris oscuro
+                Stroke     = RGB(190, 20,  25),   -- Rojo Sukuna (marcas)
+                Accent     = RGB(200, 18,  22),   -- Rojo intenso
+                ToggleOn   = RGB(215, 40,  45),   -- Rojo encendido
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://126033502222804",
             Effect     = "SukunaRainbow",
         },
 

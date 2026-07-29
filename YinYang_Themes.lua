@@ -54,7 +54,7 @@ local DEFAULT_SOUND = "rbxassetid://138567614125924"
 return {
 
     --// Versión del archivo (incrementar al hacer cambios)
-    Version = 2,
+    Version = 3,
 
     --// Tema por defecto
     DefaultTheme = "Dark",
@@ -72,7 +72,7 @@ return {
         "ErisV1",
         "ShylfieV1",
         "SukunaV1", "SukunaV2",
-        "V1", "V2", "V3", "V4", "V5", "V6", "V9", "V10", "V11",
+        "V1", "V2", "V3", "V4", "V5", "V6", "V9", "V10", "V11", "V14",
         "PibbleV1",
         "Orange",
         "Purple",
@@ -638,6 +638,22 @@ return {
             },
             Sound      = DEFAULT_SOUND,
             Background = "rbxassetid://93259710745008",
+            Effect     = "Off",
+        },
+
+        V14 = {
+            Palette = {
+                Background = RGB(240, 240, 240),
+                Secondary  = RGB(210, 210, 210),
+                AccentOff  = RGB(180, 180, 180),
+                Text       = RGB(10,  10,  12),
+                TextDim    = RGB(80,  80,  85),
+                Stroke     = RGB(130, 130, 135),
+                Accent     = RGB(20,  20,  22),
+                ToggleOn   = RGB(50,  50,  55),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://93805577153601",
             Effect     = "Off",
         },
 

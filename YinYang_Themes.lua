@@ -54,7 +54,7 @@ local DEFAULT_SOUND = "rbxassetid://138567614125924"
 return {
 
     --// Versión del archivo (incrementar al hacer cambios)
-    Version = 3,
+    Version = 4,
 
     --// Tema por defecto
     DefaultTheme = "Dark",
@@ -72,10 +72,8 @@ return {
         "ErisV1",
         "ShylfieV1",
         "SukunaV1", "SukunaV2",
-        "V1", "V2", "V3", "V4", "V5", "V6", "V9", "V10", "V11", "V14",
+        "V1", "V2", "V3", "V4", "V5", "V6", "V9", "V10", "V11", "V14", "V15",
         "PibbleV1",
-        "Orange",
-        "Purple",
     },
 
     --// Todos los temas
@@ -361,38 +359,6 @@ return {
             Effect     = "Off",
         },
 
-        Orange = {
-            Palette = {
-                Background = RGB(40, 20, 10),
-                Secondary  = RGB(70, 35, 20),
-                AccentOff  = RGB(120, 60, 30),
-                Text       = RGB(255, 240, 230),
-                TextDim    = RGB(220, 180, 150),
-                Stroke     = RGB(220, 140, 60),
-                Accent     = RGB(255, 160, 80),
-                ToggleOn   = RGB(255, 160, 80),
-            },
-            Sound      = DEFAULT_SOUND,
-            Background = "",
-            Effect     = "Off",
-        },
-
-        Purple = {
-            Palette = {
-                Background = RGB(20, 10, 35),
-                Secondary  = RGB(40, 20, 60),
-                AccentOff  = RGB(70, 40, 100),
-                Text       = RGB(240, 240, 240),
-                TextDim    = RGB(180, 160, 200),
-                Stroke     = RGB(120, 80, 180),
-                Accent     = RGB(180, 100, 255),
-                ToggleOn   = RGB(180, 100, 255),
-            },
-            Sound      = DEFAULT_SOUND,
-            Background = "",
-            Effect     = "Off",
-        },
-
         --// ════════════════════════════════════════════════════════════════
         --// TEMAS ESPECIALES CON EFECTOS AUTOMÁTICOS
         --// ════════════════════════════════════════════════════════════════
@@ -654,6 +620,23 @@ return {
             },
             Sound      = DEFAULT_SOUND,
             Background = "rbxassetid://93805577153601",
+            Effect     = "Off",
+        },
+
+        --// V15: Manga tinta negra — monocromático oscuro, estilo crudo japonés
+        V15 = {
+            Palette = {
+                Background = RGB(10,  9,   9),
+                Secondary  = RGB(22,  20,  20),
+                AccentOff  = RGB(48,  44,  44),
+                Text       = RGB(232, 228, 224),
+                TextDim    = RGB(148, 142, 138),
+                Stroke     = RGB(180, 175, 170),
+                Accent     = RGB(238, 234, 230),
+                ToggleOn   = RGB(255, 250, 245),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://131213507661704",
             Effect     = "Off",
         },
 

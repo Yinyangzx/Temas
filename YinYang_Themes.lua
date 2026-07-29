@@ -8,8 +8,25 @@
     CÓMO AGREGAR UN TEMA NUEVO:
     1. Agrega tu tema en la tabla Themes = { ... }
     2. Agrégalo en Order = { ... } donde quieras que aparezca
-    3. Sube el cambio al repo
-    4. La librería lo detectará automáticamente la próxima vez que cargue
+    3. ⚠️ OBLIGATORIO: Incrementa el número de Version (ej: 2 → 3)
+    4. Sube el cambio al repo
+    5. La librería lo detectará automáticamente la próxima vez que cargue
+    
+    ⚠️ ADVERTENCIA CRÍTICA PARA CUALQUIER IA O DESARROLLADOR ⚠️
+    ════════════════════════════════════════════════════════════
+    SIEMPRE que modifiques este archivo (agregar tema, editar colores,
+    cambiar imagen, cambiar sonido, cambiar effect, etc.) DEBES
+    incrementar el número de Version EN LA MISMA EDICIÓN.
+    
+    ❌ MAL: Editas temas pero dejas Version = 2
+    ✅ BIEN: Editas temas y cambias Version = 2 → Version = 3
+    
+    Si NO incrementas Version, el sistema de caché de la librería
+    ignorará tus cambios y los usuarios seguirán viendo la versión
+    vieja. El tema nuevo NO aparecerá aunque esté bien escrito.
+    
+    REGLA: Version debe incrementarse con CADA subida al repo.
+    ════════════════════════════════════════════════════════════
     
     CAMPOS POR TEMA:
     - Palette:       Los 8 colores del tema (OBLIGATORIO)
@@ -37,7 +54,7 @@ local DEFAULT_SOUND = "rbxassetid://138567614125924"
 return {
 
     --// Versión del archivo (incrementar al hacer cambios)
-    Version = 1,
+    Version = 2,
 
     --// Tema por defecto
     DefaultTheme = "Dark",

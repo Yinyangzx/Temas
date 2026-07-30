@@ -54,7 +54,7 @@ local DEFAULT_SOUND = "rbxassetid://138567614125924"
 return {
 
     --// Versión del archivo (incrementar al hacer cambios)
-    Version = 4,
+    Version = 5,
 
     --// Tema por defecto
     DefaultTheme = "Dark",
@@ -74,6 +74,7 @@ return {
         "SukunaV1", "SukunaV2",
         "V1", "V2", "V3", "V4", "V5", "V6", "V9", "V10", "V11", "V14", "V15",
         "PibbleV1",
+        "BetaV1",
     },
 
     --// Todos los temas
@@ -664,6 +665,37 @@ return {
         --// EJEMPLO DE TEMA CON SLIDESHOW (FUTURO)
         --// Descomenta y edita para usar
         --// ════════════════════════════════════════════════════════════════
+
+        --// ════════════════════════════════════════════════════════════════
+        --// BETA V1 — BMW Slideshow (Oscuro, plateado, cinematográfico)
+        --// ════════════════════════════════════════════════════════════════
+
+        BetaV1 = {
+            Palette = {
+                Background = RGB(8,   8,   8),
+                Secondary  = RGB(18,  18,  18),
+                AccentOff  = RGB(45,  45,  45),
+                Text       = RGB(230, 230, 230),
+                TextDim    = RGB(140, 140, 140),
+                Stroke     = RGB(200, 200, 200),
+                Accent     = RGB(255, 255, 255),
+                ToggleOn   = RGB(220, 220, 220),
+            },
+            Sound         = DEFAULT_SOUND,
+            Background    = "rbxassetid://92139403777307",
+            Effect        = "Off",
+            Images        = {
+                "rbxassetid://92139403777307",
+                "rbxassetid://110039764733291",
+                "rbxassetid://89200658480553",
+                "rbxassetid://102223475467392",
+                "rbxassetid://101979881884300",
+                "rbxassetid://127999847167646",
+                "rbxassetid://85613851039587",
+                "rbxassetid://85849599988114",
+            },
+            ImageInterval = 4,
+        },
 
         --[[
         SakuraTheme = {

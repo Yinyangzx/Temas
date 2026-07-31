@@ -54,7 +54,7 @@ local DEFAULT_SOUND = "rbxassetid://138567614125924"
 return {
 
     --// Versión del archivo (incrementar al hacer cambios)
-    Version = 5,
+    Version = 6,
 
     --// Tema por defecto
     DefaultTheme = "Dark",
@@ -73,6 +73,8 @@ return {
         "ShylfieV1",
         "SukunaV1", "SukunaV2",
         "V1", "V2", "V3", "V4", "V5", "V6", "V9", "V10", "V11", "V14", "V15",
+        "V16", "V17", "V18", "V19", "V20", "V21", "V22", "V23",
+        "CatV2", "CatV3", "YinYang",
         "PibbleV1",
         "BetaV1",
     },
@@ -638,6 +640,204 @@ return {
             },
             Sound      = DEFAULT_SOUND,
             Background = "rbxassetid://131213507661704",
+            Effect     = "Off",
+        },
+
+        --// ════════════════════════════════════════════════════════════════
+        --// TEMAS V16–V23 — Galería monocromática / manga oscuro
+        --// ════════════════════════════════════════════════════════════════
+
+        --// V16: Figura distorsionada, álbum oscuro, calor sutil
+        V16 = {
+            Palette = {
+                Background = RGB(14,  12,  10),
+                Secondary  = RGB(28,  24,  20),
+                AccentOff  = RGB(56,  50,  42),
+                Text       = RGB(245, 240, 232),
+                TextDim    = RGB(168, 158, 142),
+                Stroke     = RGB(192, 180, 162),
+                Accent     = RGB(238, 228, 210),
+                ToggleOn   = RGB(255, 245, 225),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://131569495445235",
+            Effect     = "Off",
+        },
+
+        --// V17: Figura pálida etérea, blanco difuso, casi fantasmal
+        V17 = {
+            Palette = {
+                Background = RGB(14,  12,  16),
+                Secondary  = RGB(28,  25,  32),
+                AccentOff  = RGB(56,  50,  64),
+                Text       = RGB(240, 238, 250),
+                TextDim    = RGB(170, 162, 188),
+                Stroke     = RGB(195, 185, 215),
+                Accent     = RGB(222, 212, 245),
+                ToggleOn   = RGB(238, 228, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://75269206901456",
+            Effect     = "Off",
+        },
+
+        --// V18: Figura oscura con marca estrella blanca, manga B&W
+        V18 = {
+            Palette = {
+                Background = RGB(8,   8,   10),
+                Secondary  = RGB(20,  18,  22),
+                AccentOff  = RGB(45,  42,  50),
+                Text       = RGB(235, 232, 242),
+                TextDim    = RGB(148, 142, 158),
+                Stroke     = RGB(178, 170, 190),
+                Accent     = RGB(225, 218, 240),
+                ToggleOn   = RGB(248, 242, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://102616943205946",
+            Effect     = "Off",
+        },
+
+        --// V19: Arte manga, cabello blanco largo, sketch detallado
+        V19 = {
+            Palette = {
+                Background = RGB(16,  14,  12),
+                Secondary  = RGB(32,  28,  24),
+                AccentOff  = RGB(58,  52,  44),
+                Text       = RGB(245, 240, 230),
+                TextDim    = RGB(175, 165, 148),
+                Stroke     = RGB(200, 192, 172),
+                Accent     = RGB(235, 228, 208),
+                ToggleOn   = RGB(252, 245, 225),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://81176797774975",
+            Effect     = "Off",
+        },
+
+        --// V20: Persona gótica oscura, casi negro total
+        V20 = {
+            Palette = {
+                Background = RGB(8,   6,   8),
+                Secondary  = RGB(18,  14,  18),
+                AccentOff  = RGB(40,  34,  40),
+                Text       = RGB(228, 220, 228),
+                TextDim    = RGB(138, 128, 138),
+                Stroke     = RGB(165, 155, 168),
+                Accent     = RGB(210, 200, 215),
+                ToggleOn   = RGB(238, 228, 242),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://89588755000079",
+            Effect     = "Off",
+        },
+
+        --// V21: Chica gótica con tatuajes, oscuro con leve cálido
+        V21 = {
+            Palette = {
+                Background = RGB(12,  10,  12),
+                Secondary  = RGB(26,  22,  26),
+                AccentOff  = RGB(52,  45,  52),
+                Text       = RGB(238, 228, 236),
+                TextDim    = RGB(155, 142, 153),
+                Stroke     = RGB(178, 162, 175),
+                Accent     = RGB(218, 200, 215),
+                ToggleOn   = RGB(240, 225, 238),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://126442099266569",
+            Effect     = "Off",
+        },
+
+        --// V22: Figura plateada/blanca, etérea, monocromático puro
+        V22 = {
+            Palette = {
+                Background = RGB(10,  10,  12),
+                Secondary  = RGB(22,  22,  26),
+                AccentOff  = RGB(50,  50,  56),
+                Text       = RGB(248, 248, 250),
+                TextDim    = RGB(175, 175, 182),
+                Stroke     = RGB(205, 205, 212),
+                Accent     = RGB(235, 235, 242),
+                ToggleOn   = RGB(255, 255, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://115500432857631",
+            Effect     = "Off",
+        },
+
+        --// V23: Figura encapuchada, fondo muy oscuro, brillo azul frío
+        V23 = {
+            Palette = {
+                Background = RGB(6,   8,   14),
+                Secondary  = RGB(14,  18,  28),
+                AccentOff  = RGB(34,  42,  62),
+                Text       = RGB(222, 228, 248),
+                TextDim    = RGB(135, 148, 185),
+                Stroke     = RGB(158, 175, 218),
+                Accent     = RGB(185, 208, 250),
+                ToggleOn   = RGB(210, 228, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://117840063578045",
+            Effect     = "Off",
+        },
+
+        --// ════════════════════════════════════════════════════════════════
+        --// TEMAS CAT V2 / V3 — Gato, alto contraste
+        --// ════════════════════════════════════════════════════════════════
+
+        --// CatV2: Gato negro sobre fondo BLANCO, contraste máximo
+        CatV2 = {
+            Palette = {
+                Background = RGB(248, 248, 248),
+                Secondary  = RGB(222, 222, 222),
+                AccentOff  = RGB(182, 182, 182),
+                Text       = RGB(8,   8,   8),
+                TextDim    = RGB(72,  72,  72),
+                Stroke     = RGB(108, 108, 108),
+                Accent     = RGB(10,  10,  10),
+                ToggleOn   = RGB(30,  30,  30),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://87113860127671",
+            Effect     = "Off",
+        },
+
+        --// CatV3: Primer plano de ojos felinos, negro casi total
+        CatV3 = {
+            Palette = {
+                Background = RGB(5,   5,   5),
+                Secondary  = RGB(12,  12,  12),
+                AccentOff  = RGB(32,  32,  32),
+                Text       = RGB(238, 238, 238),
+                TextDim    = RGB(148, 148, 148),
+                Stroke     = RGB(185, 185, 185),
+                Accent     = RGB(228, 228, 228),
+                ToggleOn   = RGB(255, 255, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://104651627579017",
+            Effect     = "Off",
+        },
+
+        --// ════════════════════════════════════════════════════════════════
+        --// YIN YANG — Oscuro dramático con acento rojo
+        --// ════════════════════════════════════════════════════════════════
+
+        YinYang = {
+            Palette = {
+                Background = RGB(8,   6,   6),
+                Secondary  = RGB(22,  12,  12),
+                AccentOff  = RGB(48,  22,  22),
+                Text       = RGB(240, 225, 225),
+                TextDim    = RGB(160, 118, 118),
+                Stroke     = RGB(180, 58,  58),
+                Accent     = RGB(215, 42,  42),
+                ToggleOn   = RGB(235, 65,  65),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://107548900221863",
             Effect     = "Off",
         },
 

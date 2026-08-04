@@ -56,7 +56,7 @@ local DEFAULT_SOUND = "rbxassetid://138567614125924"
 return {
 
     --// Versión del archivo (incrementar al hacer cambios)
-    Version = 6,
+    Version = 7,
 
     --// Tema por defecto
     DefaultTheme = "Dark",
@@ -65,7 +65,7 @@ return {
     Order = {
         "Dark", "DarkV2",
         "Red", "RedV2",
-        "Pink", "PinkV2", "PinkV3",
+        "Pink", "PinkV2", "PinkV3", "PinkV4", "PinkV5", "PinkV6", "PinkV7",
         "Blue", "BlueV2",
         "White", "WhiteV2", "WhiteV3", "WhiteAndDark",
         "Green", "NaranjaV1", "VioletaV1",
@@ -73,10 +73,14 @@ return {
         "LightV1",
         "ErisV1",
         "ShylfieV1",
-        "SukunaV1", "SukunaV2",
+        "SukunaV1", "SukunaV2", "MakiV1",
         "V1", "V2", "V3", "V4", "V5", "V6", "V9", "V10", "V11", "V14", "V15",
         "V16", "V17", "V18", "V19", "V20", "V21", "V22", "V23",
-        "CatV2", "CatV3", "YinYang",
+        "V25", "V26", "V27", "V29", "V30", "V31", "V32",
+        "V34", "V35", "V36", "V37", "V38", "V39", "V40",
+        "CatV2", "CatV3", "CatV4", "CatV5", "CatV6",
+        "FocaV1", "FocaV2", "FocaV3", "FocaV4", "FocaV5",
+        "YinYang",
         "PibbleV1",
         "BetaV1",
     },
@@ -840,6 +844,485 @@ return {
             },
             Sound      = DEFAULT_SOUND,
             Background = "rbxassetid://107548900221863",
+            Effect     = "Off",
+        },
+
+        --// ════════════════════════════════════════════════════════════════
+        --// TEMAS ROSA V4-V7
+        --// ════════════════════════════════════════════════════════════════
+
+        --// PinkV4: Anime girl rosa vívido, fondo oscuro profundo
+        PinkV4 = {
+            Palette = {
+                Background = RGB(30, 10, 20),
+                Secondary  = RGB(60, 18, 40),
+                AccentOff  = RGB(105, 35, 75),
+                Text       = RGB(255, 238, 248),
+                TextDim    = RGB(235, 172, 210),
+                Stroke     = RGB(255, 120, 185),
+                Accent     = RGB(255, 85, 165),
+                ToggleOn   = RGB(255, 65, 148),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://139540854328209",
+            Effect     = "Off",
+        },
+
+        --// PinkV5: Hello Kitty — rosa medio, pastel suave
+        PinkV5 = {
+            Palette = {
+                Background = RGB(238, 195, 215),
+                Secondary  = RGB(252, 215, 232),
+                AccentOff  = RGB(228, 178, 205),
+                Text       = RGB(75, 18, 48),
+                TextDim    = RGB(145, 65, 105),
+                Stroke     = RGB(218, 112, 165),
+                Accent     = RGB(245, 70, 145),
+                ToggleOn   = RGB(255, 50, 128),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://107807521954440",
+            Effect     = "Off",
+        },
+
+        --// PinkV6: My Melody — rosa-crema, muy suave
+        PinkV6 = {
+            Palette = {
+                Background = RGB(245, 210, 228),
+                Secondary  = RGB(255, 228, 240),
+                AccentOff  = RGB(235, 188, 215),
+                Text       = RGB(68, 16, 42),
+                TextDim    = RGB(138, 58, 98),
+                Stroke     = RGB(215, 105, 162),
+                Accent     = RGB(240, 65, 145),
+                ToggleOn   = RGB(255, 45, 128),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://116759169162021",
+            Effect     = "Off",
+        },
+
+        --// PinkV7: Patas rosas — pastel muy claro, tierno
+        PinkV7 = {
+            Palette = {
+                Background = RGB(252, 238, 245),
+                Secondary  = RGB(248, 222, 236),
+                AccentOff  = RGB(238, 198, 220),
+                Text       = RGB(78, 28, 55),
+                TextDim    = RGB(158, 92, 132),
+                Stroke     = RGB(215, 148, 185),
+                Accent     = RGB(248, 105, 168),
+                ToggleOn   = RGB(255, 82, 152),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://90829879004160",
+            Effect     = "Off",
+        },
+
+        --// ════════════════════════════════════════════════════════════════
+        --// MAKI V1 — Especial de personaje
+        --// ════════════════════════════════════════════════════════════════
+
+        --// MakiV1: Personaje con anteojos, oscuro con tono azul-gris frío
+        MakiV1 = {
+            Palette = {
+                Background = RGB(8, 9, 14),
+                Secondary  = RGB(18, 20, 30),
+                AccentOff  = RGB(40, 44, 65),
+                Text       = RGB(232, 234, 245),
+                TextDim    = RGB(145, 150, 178),
+                Stroke     = RGB(178, 182, 215),
+                Accent     = RGB(218, 222, 248),
+                ToggleOn   = RGB(242, 245, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://121674605627744",
+            Effect     = "Off",
+        },
+
+        --// ════════════════════════════════════════════════════════════════
+        --// SERIE V25–V40 — Galería manga / oscuro avanzado
+        --// ════════════════════════════════════════════════════════════════
+
+        --// V25: Chico musculoso manga, oscuro dramático
+        V25 = {
+            Palette = {
+                Background = RGB(10, 9, 11),
+                Secondary  = RGB(22, 20, 24),
+                AccentOff  = RGB(48, 44, 52),
+                Text       = RGB(238, 235, 242),
+                TextDim    = RGB(152, 146, 162),
+                Stroke     = RGB(192, 185, 202),
+                Accent     = RGB(235, 230, 245),
+                ToggleOn   = RGB(255, 250, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://131942578565248",
+            Effect     = "Off",
+        },
+
+        --// V26: Manga masculino, cabello salvaje, alto contraste oscuro
+        V26 = {
+            Palette = {
+                Background = RGB(8, 8, 10),
+                Secondary  = RGB(18, 18, 22),
+                AccentOff  = RGB(42, 40, 50),
+                Text       = RGB(240, 238, 248),
+                TextDim    = RGB(155, 150, 168),
+                Stroke     = RGB(192, 186, 208),
+                Accent     = RGB(235, 230, 250),
+                ToggleOn   = RGB(255, 250, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://127292488345933",
+            Effect     = "Off",
+        },
+
+        --// V27: Chica manga ocultando rostro, drama oscuro
+        V27 = {
+            Palette = {
+                Background = RGB(9, 8, 11),
+                Secondary  = RGB(20, 18, 24),
+                AccentOff  = RGB(44, 40, 52),
+                Text       = RGB(235, 230, 242),
+                TextDim    = RGB(148, 140, 160),
+                Stroke     = RGB(182, 172, 198),
+                Accent     = RGB(228, 218, 245),
+                ToggleOn   = RGB(248, 240, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://120634427768887",
+            Effect     = "Off",
+        },
+
+        --// V29: Sketch manga fondo claro, pelo blanco-rubio, B&W clásico
+        V29 = {
+            Palette = {
+                Background = RGB(242, 242, 242),
+                Secondary  = RGB(218, 218, 218),
+                AccentOff  = RGB(188, 188, 188),
+                Text       = RGB(10, 10, 12),
+                TextDim    = RGB(72, 72, 78),
+                Stroke     = RGB(122, 122, 130),
+                Accent     = RGB(15, 15, 20),
+                ToggleOn   = RGB(45, 45, 55),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://119677666450012",
+            Effect     = "Off",
+        },
+
+        --// V30: Chico manga oscuro, pelo largo revuelto, muy moody
+        V30 = {
+            Palette = {
+                Background = RGB(8, 8, 10),
+                Secondary  = RGB(18, 18, 22),
+                AccentOff  = RGB(40, 38, 46),
+                Text       = RGB(232, 230, 238),
+                TextDim    = RGB(145, 140, 155),
+                Stroke     = RGB(180, 174, 192),
+                Accent     = RGB(225, 220, 238),
+                ToggleOn   = RGB(248, 244, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://133915003145953",
+            Effect     = "Off",
+        },
+
+        --// V31: Chica oscura con lazo rosa/fucsia, cicatrices, romántico dark
+        V31 = {
+            Palette = {
+                Background = RGB(10, 7, 12),
+                Secondary  = RGB(22, 15, 28),
+                AccentOff  = RGB(50, 32, 60),
+                Text       = RGB(238, 225, 245),
+                TextDim    = RGB(158, 128, 172),
+                Stroke     = RGB(198, 138, 185),
+                Accent     = RGB(228, 130, 195),
+                ToggleOn   = RGB(245, 150, 215),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://135394794311972",
+            Effect     = "Off",
+        },
+
+        --// V32: Primer plano manga dramático con espada, B&W puro máximo contraste
+        V32 = {
+            Palette = {
+                Background = RGB(5, 5, 6),
+                Secondary  = RGB(14, 14, 16),
+                AccentOff  = RGB(35, 35, 38),
+                Text       = RGB(242, 242, 245),
+                TextDim    = RGB(158, 158, 165),
+                Stroke     = RGB(200, 200, 208),
+                Accent     = RGB(242, 242, 248),
+                ToggleOn   = RGB(255, 255, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://124870134970223",
+            Effect     = "Off",
+        },
+
+        --// V34: Anime con destellos azul-blanco etéreos, oscuro con brillo
+        V34 = {
+            Palette = {
+                Background = RGB(6, 7, 15),
+                Secondary  = RGB(14, 16, 32),
+                AccentOff  = RGB(32, 36, 70),
+                Text       = RGB(228, 232, 252),
+                TextDim    = RGB(142, 150, 200),
+                Stroke     = RGB(168, 178, 228),
+                Accent     = RGB(205, 215, 252),
+                ToggleOn   = RGB(232, 240, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://79995762243246",
+            Effect     = "Off",
+        },
+
+        --// V35: Collage manga oscuro, múltiples figuras superpuestas, muy denso
+        V35 = {
+            Palette = {
+                Background = RGB(6, 6, 6),
+                Secondary  = RGB(15, 15, 15),
+                AccentOff  = RGB(38, 38, 38),
+                Text       = RGB(240, 240, 240),
+                TextDim    = RGB(155, 155, 155),
+                Stroke     = RGB(195, 195, 195),
+                Accent     = RGB(235, 235, 235),
+                ToggleOn   = RGB(255, 255, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://116667288808985",
+            Effect     = "Off",
+        },
+
+        --// V36: Chica oscura pelo negro largo, lazo, manga cute-dark
+        V36 = {
+            Palette = {
+                Background = RGB(9, 8, 10),
+                Secondary  = RGB(20, 18, 22),
+                AccentOff  = RGB(44, 40, 48),
+                Text       = RGB(235, 230, 238),
+                TextDim    = RGB(148, 140, 155),
+                Stroke     = RGB(182, 172, 192),
+                Accent     = RGB(228, 218, 235),
+                ToggleOn   = RGB(250, 242, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://107213243989556",
+            Effect     = "Off",
+        },
+
+        --// V37: Dragón/criatura oscura en B&W, fondo casi negro total
+        V37 = {
+            Palette = {
+                Background = RGB(6, 6, 8),
+                Secondary  = RGB(14, 14, 17),
+                AccentOff  = RGB(34, 32, 38),
+                Text       = RGB(235, 232, 240),
+                TextDim    = RGB(148, 144, 156),
+                Stroke     = RGB(185, 180, 198),
+                Accent     = RGB(228, 224, 240),
+                ToggleOn   = RGB(252, 248, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://90979425933536",
+            Effect     = "Off",
+        },
+
+        --// V38: Agujero negro espacial, cósmico oscuro con acento azul-blanco
+        V38 = {
+            Palette = {
+                Background = RGB(3, 3, 8),
+                Secondary  = RGB(8, 8, 18),
+                AccentOff  = RGB(20, 22, 45),
+                Text       = RGB(222, 228, 252),
+                TextDim    = RGB(130, 138, 185),
+                Stroke     = RGB(155, 168, 220),
+                Accent     = RGB(188, 205, 252),
+                ToggleOn   = RGB(215, 232, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://135766290789184",
+            Effect     = "Off",
+        },
+
+        --// V39: Estilo L de Death Note, manga dark dramático
+        V39 = {
+            Palette = {
+                Background = RGB(8, 8, 9),
+                Secondary  = RGB(17, 17, 20),
+                AccentOff  = RGB(40, 38, 45),
+                Text       = RGB(235, 232, 240),
+                TextDim    = RGB(148, 144, 158),
+                Stroke     = RGB(185, 178, 198),
+                Accent     = RGB(228, 222, 242),
+                ToggleOn   = RGB(250, 245, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://138327080532983",
+            Effect     = "Off",
+        },
+
+        --// ════════════════════════════════════════════════════════════════
+        --// TEMAS CAT V4-V6
+        --// ════════════════════════════════════════════════════════════════
+
+        --// CatV4: Gato en galaxia neon morado/violeta oscuro
+        CatV4 = {
+            Palette = {
+                Background = RGB(6, 4, 18),
+                Secondary  = RGB(14, 10, 38),
+                AccentOff  = RGB(35, 24, 88),
+                Text       = RGB(228, 215, 255),
+                TextDim    = RGB(158, 128, 222),
+                Stroke     = RGB(172, 108, 248),
+                Accent     = RGB(198, 95, 255),
+                ToggleOn   = RGB(218, 120, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://99263854912782",
+            Effect     = "Off",
+        },
+
+        --// CatV5: Gato blanco en espiral teal/cian mágico
+        CatV5 = {
+            Palette = {
+                Background = RGB(4, 16, 20),
+                Secondary  = RGB(10, 32, 40),
+                AccentOff  = RGB(24, 70, 85),
+                Text       = RGB(218, 248, 255),
+                TextDim    = RGB(128, 208, 228),
+                Stroke     = RGB(65, 205, 235),
+                Accent     = RGB(42, 222, 252),
+                ToggleOn   = RGB(20, 238, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://97229184346930",
+            Effect     = "Off",
+        },
+
+        --// V40: Árbol sakura nocturno, azul oscuro con acento rosa-lila
+        V40 = {
+            Palette = {
+                Background = RGB(6, 9, 20),
+                Secondary  = RGB(14, 20, 42),
+                AccentOff  = RGB(32, 45, 88),
+                Text       = RGB(225, 230, 252),
+                TextDim    = RGB(142, 155, 215),
+                Stroke     = RGB(172, 185, 238),
+                Accent     = RGB(205, 175, 238),
+                ToggleOn   = RGB(222, 168, 245),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://130113830047808",
+            Effect     = "Off",
+        },
+
+        --// CatV6: Cuervo/pájaro oscuro, casi negro total, muy dramático
+        CatV6 = {
+            Palette = {
+                Background = RGB(4, 4, 6),
+                Secondary  = RGB(10, 10, 13),
+                AccentOff  = RGB(26, 26, 32),
+                Text       = RGB(230, 232, 240),
+                TextDim    = RGB(145, 148, 162),
+                Stroke     = RGB(182, 185, 202),
+                Accent     = RGB(225, 228, 245),
+                ToggleOn   = RGB(250, 252, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://71243183835089",
+            Effect     = "Off",
+        },
+
+        --// ════════════════════════════════════════════════════════════════
+        --// TEMAS FOCA V1-V5
+        --// ════════════════════════════════════════════════════════════════
+
+        --// FocaV1: Foca en manta rosa cálida, crema suave
+        FocaV1 = {
+            Palette = {
+                Background = RGB(248, 238, 242),
+                Secondary  = RGB(235, 218, 228),
+                AccentOff  = RGB(215, 192, 208),
+                Text       = RGB(58, 26, 44),
+                TextDim    = RGB(130, 88, 115),
+                Stroke     = RGB(202, 148, 180),
+                Accent     = RGB(238, 128, 175),
+                ToggleOn   = RGB(252, 108, 162),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://74115870855594",
+            Effect     = "Off",
+        },
+
+        --// FocaV2: Foca en la nieve, blanco-gris neutral limpio
+        FocaV2 = {
+            Palette = {
+                Background = RGB(248, 248, 250),
+                Secondary  = RGB(230, 232, 235),
+                AccentOff  = RGB(205, 208, 215),
+                Text       = RGB(38, 40, 50),
+                TextDim    = RGB(108, 112, 128),
+                Stroke     = RGB(165, 170, 188),
+                Accent     = RGB(75, 122, 185),
+                ToggleOn   = RGB(58, 108, 172),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://80818688784031",
+            Effect     = "Off",
+        },
+
+        --// FocaV3: Focas con estrellas azules, fondo celeste claro
+        FocaV3 = {
+            Palette = {
+                Background = RGB(215, 232, 252),
+                Secondary  = RGB(192, 215, 248),
+                AccentOff  = RGB(165, 195, 238),
+                Text       = RGB(18, 42, 80),
+                TextDim    = RGB(68, 108, 168),
+                Stroke     = RGB(108, 155, 218),
+                Accent     = RGB(48, 138, 228),
+                ToggleOn   = RGB(28, 118, 212),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://115523563707189",
+            Effect     = "Off",
+        },
+
+        --// FocaV4: Foca blanca acurrucada, crema-blanco muy suave
+        FocaV4 = {
+            Palette = {
+                Background = RGB(250, 248, 244),
+                Secondary  = RGB(235, 230, 224),
+                AccentOff  = RGB(210, 205, 196),
+                Text       = RGB(42, 38, 32),
+                TextDim    = RGB(115, 108, 98),
+                Stroke     = RGB(172, 165, 152),
+                Accent     = RGB(68, 62, 52),
+                ToggleOn   = RGB(48, 42, 35),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://98668315248208",
+            Effect     = "Off",
+        },
+
+        --// FocaV5: Foca tierna con decoraciones rosas, pastel cute
+        FocaV5 = {
+            Palette = {
+                Background = RGB(252, 240, 246),
+                Secondary  = RGB(240, 222, 234),
+                AccentOff  = RGB(220, 195, 214),
+                Text       = RGB(52, 24, 42),
+                TextDim    = RGB(128, 82, 112),
+                Stroke     = RGB(200, 140, 178),
+                Accent     = RGB(238, 118, 168),
+                ToggleOn   = RGB(252, 98, 155),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://88265953594980",
             Effect     = "Off",
         },
 

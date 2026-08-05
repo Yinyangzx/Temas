@@ -56,7 +56,7 @@ local DEFAULT_SOUND = "rbxassetid://138567614125924"
 return {
 
     --// Versión del archivo (incrementar al hacer cambios)
-    Version = 7,
+    Version = 8,
 
     --// Tema por defecto
     DefaultTheme = "Dark",
@@ -82,7 +82,7 @@ return {
         "FocaV1", "FocaV2", "FocaV3", "FocaV4", "FocaV5",
         "YinYang",
         "PibbleV1",
-        "BetaV1",
+        "BetaV1", "NewV1",
     },
 
     --// Todos los temas
@@ -1354,6 +1354,29 @@ return {
         --// ════════════════════════════════════════════════════════════════
         --// BETA V1 — BMW Slideshow (Oscuro, plateado, cinematográfico)
         --// ════════════════════════════════════════════════════════════════
+
+        --// ════════════════════════════════════════════════════════════════
+        --// NEW V1 — Tema con 3 imágenes (Background + TitleBar + TabList)
+        --// ════════════════════════════════════════════════════════════════
+
+        --// NewV1: B&W cinematográfico — silueta, ángel, bosque neblinoso
+        NewV1 = {
+            Palette = {
+                Background = RGB(7,  7,  9),           -- Negro profundo
+                Secondary  = RGB(16, 16, 20),          -- Gris muy oscuro
+                AccentOff  = RGB(40, 40, 48),          -- Gris oscuro
+                Text       = RGB(242, 240, 246),       -- Blanco cálido
+                TextDim    = RGB(158, 155, 168),       -- Gris claro
+                Stroke     = RGB(198, 194, 210),       -- Gris medio
+                Accent     = RGB(238, 235, 248),       -- Casi blanco
+                ToggleOn   = RGB(255, 255, 255),       -- Blanco puro
+            },
+            Sound         = DEFAULT_SOUND,
+            Background    = "rbxassetid://116694913976993",   -- Silueta anime con luz
+            TitleBarImage = "rbxassetid://123832703562018",   -- Figura con alas sobre negro
+            TabListImage  = "rbxassetid://110216901962252",   -- Bosque neblinoso etéreo
+            Effect        = "Off",
+        },
 
         BetaV1 = {
             Palette = {

@@ -56,7 +56,7 @@ local DEFAULT_SOUND = "rbxassetid://138567614125924"
 return {
 
     --// Versión del archivo (incrementar al hacer cambios)
-    Version = 8,
+    Version = 9,
 
     --// Tema por defecto
     DefaultTheme = "Dark",
@@ -78,6 +78,7 @@ return {
         "V16", "V17", "V18", "V19", "V20", "V21", "V22", "V23",
         "V25", "V26", "V27", "V29", "V30", "V31", "V32",
         "V34", "V35", "V36", "V37", "V38", "V39", "V40",
+        "V42", "V43", "V44", "V45", "V46", "V47", "V48", "V49", "V50", "V51", "V52",
         "CatV2", "CatV3", "CatV4", "CatV5", "CatV6",
         "FocaV1", "FocaV2", "FocaV3", "FocaV4", "FocaV5",
         "YinYang",
@@ -1217,6 +1218,200 @@ return {
             },
             Sound      = DEFAULT_SOUND,
             Background = "rbxassetid://130113830047808",
+            Effect     = "Off",
+        },
+
+
+
+        --// ════════════════════════════════════════════════════════════════
+        --// TEMAS V42-V52 — MANGA MONOCROMO Y ROJO
+        --// Paletas ajustadas a las referencias visuales suministradas.
+        --// ════════════════════════════════════════════════════════════════
+
+        --// V42: Manga B&W de alto contraste, negro tinta y blanco frío
+        V42 = {
+            Palette = {
+                Background = RGB(7, 7, 9),
+                Secondary  = RGB(17, 17, 21),
+                AccentOff  = RGB(42, 42, 50),
+                Text       = RGB(244, 244, 248),
+                TextDim    = RGB(162, 162, 174),
+                Stroke     = RGB(202, 202, 214),
+                Accent     = RGB(238, 238, 246),
+                ToggleOn   = RGB(255, 255, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://110302930879661",
+            Effect     = "Off",
+        },
+
+        --// V43: Guerrero de pelo blanco, escala plata sobre gris profundo
+        V43 = {
+            Palette = {
+                Background = RGB(12, 12, 14),
+                Secondary  = RGB(27, 27, 31),
+                AccentOff  = RGB(58, 58, 66),
+                Text       = RGB(242, 242, 246),
+                TextDim    = RGB(174, 174, 184),
+                Stroke     = RGB(205, 205, 216),
+                Accent     = RGB(226, 226, 238),
+                ToggleOn   = RGB(248, 248, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://130415032243089",
+            Effect     = "Off",
+        },
+
+        --// V44: Retrato manga claro, grafito frío y contraste suave
+        V44 = {
+            Palette = {
+                Background = RGB(226, 228, 232),
+                Secondary  = RGB(205, 208, 214),
+                AccentOff  = RGB(176, 181, 190),
+                Text       = RGB(20, 22, 27),
+                TextDim    = RGB(84, 90, 102),
+                Stroke     = RGB(126, 133, 148),
+                Accent     = RGB(42, 48, 60),
+                ToggleOn   = RGB(70, 82, 105),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://71738470618809",
+            Effect     = "Off",
+        },
+
+        --// V45: Primer plano manga en gris cálido, interfaz clara equilibrada
+        V45 = {
+            Palette = {
+                Background = RGB(238, 236, 234),
+                Secondary  = RGB(218, 215, 212),
+                AccentOff  = RGB(192, 188, 184),
+                Text       = RGB(25, 23, 24),
+                TextDim    = RGB(92, 84, 88),
+                Stroke     = RGB(142, 134, 140),
+                Accent     = RGB(48, 42, 46),
+                ToggleOn   = RGB(76, 66, 72),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://106655833995220",
+            Effect     = "Off",
+        },
+
+        --// V46: Figura encapuchada, negro absoluto con acento acero pálido
+        V46 = {
+            Palette = {
+                Background = RGB(5, 5, 7),
+                Secondary  = RGB(13, 13, 17),
+                AccentOff  = RGB(31, 32, 39),
+                Text       = RGB(231, 234, 242),
+                TextDim    = RGB(140, 146, 160),
+                Stroke     = RGB(173, 181, 198),
+                Accent     = RGB(214, 222, 240),
+                ToggleOn   = RGB(246, 250, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://112622477341084",
+            Effect     = "Off",
+        },
+
+        --// V47: Retrato dark con brillo vino-púrpura muy sutil
+        V47 = {
+            Palette = {
+                Background = RGB(11, 6, 10),
+                Secondary  = RGB(25, 13, 22),
+                AccentOff  = RGB(53, 28, 47),
+                Text       = RGB(244, 235, 242),
+                TextDim    = RGB(174, 138, 165),
+                Stroke     = RGB(205, 125, 174),
+                Accent     = RGB(224, 100, 160),
+                ToggleOn   = RGB(243, 122, 183),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://100981216660830",
+            Effect     = "Off",
+        },
+
+        --// V48: Perfil manga en sombra, monocromo frío y contraste dramático
+        V48 = {
+            Palette = {
+                Background = RGB(6, 6, 8),
+                Secondary  = RGB(15, 15, 19),
+                AccentOff  = RGB(37, 37, 45),
+                Text       = RGB(239, 240, 246),
+                TextDim    = RGB(153, 155, 170),
+                Stroke     = RGB(190, 193, 208),
+                Accent     = RGB(226, 230, 244),
+                ToggleOn   = RGB(252, 254, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://76481769498506",
+            Effect     = "Off",
+        },
+
+        --// V49: Espadachín B&W, carbón profundo y blancos definidos
+        V49 = {
+            Palette = {
+                Background = RGB(8, 8, 10),
+                Secondary  = RGB(19, 19, 23),
+                AccentOff  = RGB(45, 45, 53),
+                Text       = RGB(243, 243, 247),
+                TextDim    = RGB(164, 164, 176),
+                Stroke     = RGB(202, 202, 214),
+                Accent     = RGB(235, 235, 244),
+                ToggleOn   = RGB(255, 255, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://78344101463081",
+            Effect     = "Off",
+        },
+
+        --// V50: Guerrero manga de fondo blanco, plata y grafito limpio
+        V50 = {
+            Palette = {
+                Background = RGB(244, 244, 246),
+                Secondary  = RGB(224, 225, 229),
+                AccentOff  = RGB(196, 198, 205),
+                Text       = RGB(22, 23, 28),
+                TextDim    = RGB(87, 91, 103),
+                Stroke     = RGB(132, 137, 151),
+                Accent     = RGB(46, 50, 60),
+                ToggleOn   = RGB(72, 80, 98),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://125474444265451",
+            Effect     = "Off",
+        },
+
+        --// V51: Anatomía manga rojo-blanco, carmesí intenso sobre negro vino
+        V51 = {
+            Palette = {
+                Background = RGB(28, 6, 9),
+                Secondary  = RGB(57, 13, 19),
+                AccentOff  = RGB(104, 28, 38),
+                Text       = RGB(255, 238, 238),
+                TextDim    = RGB(220, 157, 163),
+                Stroke     = RGB(235, 94, 106),
+                Accent     = RGB(255, 82, 96),
+                ToggleOn   = RGB(255, 112, 122),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://133049050145861",
+            Effect     = "Off",
+        },
+
+        --// V52: Figura de pelo blanco sobre rojo oscuro, marfil y borgoña
+        V52 = {
+            Palette = {
+                Background = RGB(24, 7, 9),
+                Secondary  = RGB(49, 15, 18),
+                AccentOff  = RGB(90, 29, 33),
+                Text       = RGB(250, 239, 236),
+                TextDim    = RGB(212, 164, 157),
+                Stroke     = RGB(228, 109, 100),
+                Accent     = RGB(245, 132, 118),
+                ToggleOn   = RGB(255, 159, 139),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://127725585032479",
             Effect     = "Off",
         },
 

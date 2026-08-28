@@ -56,7 +56,7 @@ local DEFAULT_SOUND = "rbxassetid://138567614125924"
 return {
 
     --// Versión del archivo (incrementar al hacer cambios)
-    Version = 9,
+    Version = 10,
 
     --// Tema por defecto
     DefaultTheme = "Dark",
@@ -79,6 +79,7 @@ return {
         "V25", "V26", "V27", "V29", "V30", "V31", "V32",
         "V34", "V35", "V36", "V37", "V38", "V39", "V40",
         "V42", "V43", "V44", "V45", "V46", "V47", "V48", "V49", "V50", "V51", "V52",
+        "V53", "V54", "V56", "V57", "V58", "V59", "V60", "V61", "V62", "V63", "V64", "V65", "V66", "V67", "V68",
         "CatV2", "CatV3", "CatV4", "CatV5", "CatV6",
         "FocaV1", "FocaV2", "FocaV3", "FocaV4", "FocaV5",
         "YinYang",
@@ -1412,6 +1413,261 @@ return {
             },
             Sound      = DEFAULT_SOUND,
             Background = "rbxassetid://127725585032479",
+            Effect     = "Off",
+        },
+
+        --// V53: Rostro fantasmal con estática digital blanca sobre negro
+        V53 = {
+            Palette = {
+                Background = RGB(8, 8, 10),
+                Secondary  = RGB(18, 18, 22),
+                AccentOff  = RGB(45, 45, 52),
+                Text       = RGB(240, 240, 245),
+                TextDim    = RGB(150, 150, 158),
+                Stroke     = RGB(190, 190, 200),
+                Accent     = RGB(225, 225, 232),
+                ToggleOn   = RGB(245, 245, 250),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://130269395866384",
+            Effect     = "Off",
+        },
+
+        --// V54: Figura encapuchada con sonrisa/calavera brillante, negro casi total
+        V54 = {
+            Palette = {
+                Background = RGB(6, 6, 7),
+                Secondary  = RGB(14, 14, 16),
+                AccentOff  = RGB(38, 38, 42),
+                Text       = RGB(238, 238, 240),
+                TextDim    = RGB(140, 140, 145),
+                Stroke     = RGB(200, 200, 205),
+                Accent     = RGB(230, 230, 235),
+                ToggleOn   = RGB(250, 250, 252),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://123115216802325",
+            Effect     = "Off",
+        },
+
+        --// V56: Rostro con pintura tipo diamante y ojo brillante, negro
+        V56 = {
+            Palette = {
+                Background = RGB(9, 9, 11),
+                Secondary  = RGB(19, 19, 23),
+                AccentOff  = RGB(48, 48, 55),
+                Text       = RGB(242, 242, 246),
+                TextDim    = RGB(155, 155, 163),
+                Stroke     = RGB(210, 210, 218),
+                Accent     = RGB(235, 235, 240),
+                ToggleOn   = RGB(250, 250, 253),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://95864830439356",
+            Effect     = "Off",
+        },
+
+        --// V57: Figura encapuchada con corona de espinas, rojo profundo
+        V57 = {
+            Palette = {
+                Background = RGB(26, 6, 8),
+                Secondary  = RGB(52, 13, 16),
+                AccentOff  = RGB(95, 26, 30),
+                Text       = RGB(250, 235, 233),
+                TextDim    = RGB(205, 150, 148),
+                Stroke     = RGB(220, 90, 88),
+                Accent     = RGB(235, 110, 105),
+                ToggleOn   = RGB(250, 140, 132),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://89099383444903",
+            Effect     = "Off",
+        },
+
+        --// V58: Figura pálida etérea con halo de pelo gris, escala de grises
+        V58 = {
+            Palette = {
+                Background = RGB(20, 20, 22),
+                Secondary  = RGB(38, 38, 42),
+                AccentOff  = RGB(72, 72, 78),
+                Text       = RGB(245, 245, 248),
+                TextDim    = RGB(175, 175, 182),
+                Stroke     = RGB(200, 200, 208),
+                Accent     = RGB(220, 220, 228),
+                ToggleOn   = RGB(240, 240, 246),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://71141610352596",
+            Effect     = "Off",
+        },
+
+        --// V59: Figura con sombrero, negro casi total con estrella blanca
+        V59 = {
+            Palette = {
+                Background = RGB(5, 5, 6),
+                Secondary  = RGB(12, 12, 14),
+                AccentOff  = RGB(32, 32, 36),
+                Text       = RGB(235, 235, 238),
+                TextDim    = RGB(130, 130, 136),
+                Stroke     = RGB(180, 180, 188),
+                Accent     = RGB(215, 215, 222),
+                ToggleOn   = RGB(240, 240, 245),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://124175139819346",
+            Effect     = "Off",
+        },
+
+        --// V60: Pelo blanco puntiagudo, escala de grises oscura
+        V60 = {
+            Palette = {
+                Background = RGB(12, 12, 14),
+                Secondary  = RGB(24, 24, 28),
+                AccentOff  = RGB(55, 55, 62),
+                Text       = RGB(244, 244, 248),
+                TextDim    = RGB(165, 165, 172),
+                Stroke     = RGB(205, 205, 212),
+                Accent     = RGB(230, 230, 236),
+                ToggleOn   = RGB(248, 248, 252),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://85471078944204",
+            Effect     = "Off",
+        },
+
+        --// V61: Remolino de humo blanco brillante sobre negro
+        V61 = {
+            Palette = {
+                Background = RGB(4, 4, 5),
+                Secondary  = RGB(10, 10, 12),
+                AccentOff  = RGB(30, 30, 34),
+                Text       = RGB(248, 248, 250),
+                TextDim    = RGB(150, 150, 156),
+                Stroke     = RGB(225, 225, 232),
+                Accent     = RGB(248, 248, 252),
+                ToggleOn   = RGB(255, 255, 255),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://95540828180800",
+            Effect     = "Off",
+        },
+
+        --// V62: Figura vendada con textura grunge, gris oscuro
+        V62 = {
+            Palette = {
+                Background = RGB(14, 13, 12),
+                Secondary  = RGB(28, 26, 24),
+                AccentOff  = RGB(58, 54, 50),
+                Text       = RGB(235, 232, 228),
+                TextDim    = RGB(165, 160, 153),
+                Stroke     = RGB(190, 182, 172),
+                Accent     = RGB(215, 205, 192),
+                ToggleOn   = RGB(235, 225, 210),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://105938500215598",
+            Effect     = "Off",
+        },
+
+        --// V63: Chica de pelo oscuro y piel pálida, fondo oscuro
+        V63 = {
+            Palette = {
+                Background = RGB(11, 10, 12),
+                Secondary  = RGB(22, 20, 24),
+                AccentOff  = RGB(50, 47, 54),
+                Text       = RGB(244, 242, 246),
+                TextDim    = RGB(170, 166, 175),
+                Stroke     = RGB(200, 195, 208),
+                Accent     = RGB(225, 220, 232),
+                ToggleOn   = RGB(245, 240, 250),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://119711768933513",
+            Effect     = "Off",
+        },
+
+        --// V64: Carnet de identificación estilo Ken Kaneki, papel gris claro
+        V64 = {
+            Palette = {
+                Background = RGB(230, 230, 228),
+                Secondary  = RGB(210, 210, 207),
+                AccentOff  = RGB(180, 180, 176),
+                Text       = RGB(25, 25, 26),
+                TextDim    = RGB(95, 95, 92),
+                Stroke     = RGB(140, 140, 136),
+                Accent     = RGB(50, 50, 48),
+                ToggleOn   = RGB(75, 75, 72),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://83750838999506",
+            Effect     = "Off",
+        },
+
+        --// V65: Máscara abstracta texturizada blanco y negro, fantasmal
+        V65 = {
+            Palette = {
+                Background = RGB(16, 16, 18),
+                Secondary  = RGB(32, 32, 36),
+                AccentOff  = RGB(65, 65, 72),
+                Text       = RGB(244, 244, 248),
+                TextDim    = RGB(172, 172, 180),
+                Stroke     = RGB(205, 205, 213),
+                Accent     = RGB(228, 228, 235),
+                ToggleOn   = RGB(248, 248, 252),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://114721909567958",
+            Effect     = "Off",
+        },
+
+        --// V66: Chica de pelo blanco, rayas blanco y negro estilo manga
+        V66 = {
+            Palette = {
+                Background = RGB(9, 9, 10),
+                Secondary  = RGB(20, 20, 23),
+                AccentOff  = RGB(48, 48, 54),
+                Text       = RGB(243, 243, 246),
+                TextDim    = RGB(160, 160, 167),
+                Stroke     = RGB(200, 200, 208),
+                Accent     = RGB(232, 232, 238),
+                ToggleOn   = RGB(250, 250, 253),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://87771938664446",
+            Effect     = "Off",
+        },
+
+        --// V67: Personaje de vóley con camiseta roja, el único a color de esta tanda
+        V67 = {
+            Palette = {
+                Background = RGB(20, 5, 8),
+                Secondary  = RGB(45, 10, 16),
+                AccentOff  = RGB(85, 20, 28),
+                Text       = RGB(255, 240, 240),
+                TextDim    = RGB(220, 150, 155),
+                Stroke     = RGB(235, 70, 80),
+                Accent     = RGB(255, 60, 75),
+                ToggleOn   = RGB(255, 100, 110),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://73986769126609",
+            Effect     = "Off",
+        },
+
+        --// V68: Misma imagen/paleta que V52, subida con un asset id distinto
+        V68 = {
+            Palette = {
+                Background = RGB(24, 7, 9),
+                Secondary  = RGB(49, 15, 18),
+                AccentOff  = RGB(90, 29, 33),
+                Text       = RGB(250, 239, 236),
+                TextDim    = RGB(212, 164, 157),
+                Stroke     = RGB(228, 109, 100),
+                Accent     = RGB(245, 132, 118),
+                ToggleOn   = RGB(255, 159, 139),
+            },
+            Sound      = DEFAULT_SOUND,
+            Background = "rbxassetid://84878773664232",
             Effect     = "Off",
         },
 

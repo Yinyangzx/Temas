@@ -106,7 +106,7 @@ return {
                 ToggleOn   = RGB(52, 199, 89),
             },
             Sound      = DEFAULT_SOUND,
-            Background = "rbxassetid://138004303203419",
+            Background = "rbxassetid://76341519079058",
             Effect     = "Off",
         },
 
